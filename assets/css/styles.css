@@ -1,0 +1,171 @@
+body {
+  font-family: Arial,Helveltica,sans-serif;
+}
+
+#promo {
+  text-align: center;
+  padding: 40px;
+  background: url("../../assets/img/sneaker.webp")no-repeat;
+  background-size: cover;
+  margin-top: 140px;
+}
+
+@media (min-width: 992px) {
+  #promo {
+    padding: 20px;
+  }
+}
+
+#promo .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 300px) {
+  #promo .jumbotron {
+    padding: 20px;
+  }
+}
+
+.dark-section {
+  background-color: #e7f0f9;
+}
+
+.site-section {
+  text-align: center;
+  padding: 70px;
+}
+
+.site-section h1 {
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+#welcome p {
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+#why .item {
+  padding-top: 36px;
+}
+
+#why .item svg {
+  font-size: 40px;
+  color: #1a263e;
+}
+
+#why .item h2 {
+  font-weight: normal;
+  margin-top: 13px;
+  margin-bottom: 20px;
+}
+
+#why .item i {
+  font-size: 40px;
+  color: #1a263e;
+}
+
+.logo {
+  max-height: 42px;
+  margin-right: 10px;
+  margin-top: -3px;
+  display: inline-block;
+}
+
+.btn {
+  margin-top: 40px;
+}
+
+.menu1 {
+  margin-left: 2%;
+  margin-bottom: 25px;
+}
+
+#menu1 p {
+  font-size: 11px;
+  margin-bottom: 5px;
+  margin-top: 11px;
+}
+
+.san_pham {
+  margin-top: 24px;
+  margin-bottom: 50px;
+}
+
+.nut {
+  text-align: center;
+}
+
+.mua_hang {
+  height: 450px;
+}
+
+.anh_sp {
+  margin-left: 51px;
+}
+
+#gio_hang {
+  background-color: #2f80ed;
+}
+
+#nut_mua {
+  background-color: #e67300;
+}
+
+.thong_tin_sp {
+  margin-top: -40px;
+  margin-left: 30px;
+  font-size: 13px;
+}
+
+.menu1 {
+  margin-right: 11px;
+}
+
+#welcome-2 {
+  margin-top: -90px;
+}
+
+.nav-item:hover {
+  background-color: #d9d9d9;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #000000;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  margin-top: 25px;
+}
+
+.block:hover {
+  background-color: gray;
+  color: black;
+}
+
+#wrapper {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#nut_mua:hover {
+  background-color: white;
+  color: #e67300;
+}
+
+#gio_hang:hover {
+  background: white;
+  color: #2f80ed;
+}
+
